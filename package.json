@@ -1,13 +1,16 @@
 {
-  "name": "index-seo-tool",
-  "version": "1.0.0",
-  "description": "Instant URL Indexing Tool for Vercel",
-  "main": "index.js",
-  "dependencies": {
-    "@upstash/redis": "^1.25.0",
-    "axios": "^1.6.0"
+  "name": "authority-crawl",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "engines": {
-    "node": ">=18.x"
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "next-auth": "beta"
   }
 }
